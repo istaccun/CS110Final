@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Filename: calendar.html
+     Author:  Christine T
+     Purpose: CS Project Calendar
+     Modications:  Oct. 2015
+     Purpose: This page serves as the calendar for all FGN events.  This page
+     has no javascript applications.  We used <iframe> - a frame within a frame -
+     to embed a Google calendar that displays all FGN events.
+-->
+
+  <head>
+    <meta charset="utf-8">
+    <title>First Gen Network</title>
+    <link rel="stylesheet" href="styling.css">
+    <!--Add W logo into tab-->
+    <link rel='shortcut icon' href='images/wellesley_logo.png'>
+  </head>
+
+  <!-- Christine's Navbar -->
+  <nav>
+      <!-- Here starts the code that should go in the separate menu.part file. -->
+        <!--#include virtual="menu.part"-->
+      <!-- Here ends the code that should go in the separate menu.part file. -->
+  </nav>
+  
+  <body>
+
+    <section id="calendar">
+    <!--Created a calender in Google Calendar and embedded into HTML here-->
+    <iframe src="https://www.google.com/calendar/embed?src=wellesley.edu_amokf6c3in8sqsji4okh9k5014%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </section>
+  </body>
+  <footer>
+      <p>106 Central Street Wellesley, MA 02481 |
+      <a href="mailto:kshih@wellesly.edu">kshih@wellesley.edu</a>
+  </p>
+  </footer>
+</html>

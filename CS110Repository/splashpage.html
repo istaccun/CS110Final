@@ -1,0 +1,67 @@
+<!doctype html>
+<!--
+FILE NAME: splashpage.html
+WRITTEN BY: Isabel Staccuneddu and Christine Tang
+DATE:  10/31/15
+PURPOSE: This page serves as the splash page and introduction to our website.
+There are two javascript applications on this page.  The first is the link titled
+"JOIN", which brings the user to our homepage.  The javascript for this is
+expandText.js, and makes the word "JOIN" expand horizontally as the user hovers
+over it.  The second is the image carousel.  The carousel is displayed in the
+"carousel" figure using the jQuery in the imageCarousel.js file.  These features
+make the website enticing to enter.
+-->
+<html>
+
+    <head>
+
+        <title>First Gen Network</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styling.css">
+        <!--Add W logo into tab-->
+        <link rel='shortcut icon' href='images/wellesley_logo.png'>
+
+    </head>
+
+    <!-- Isabel wrote the HTML, CSS, and imageCarousel.js.  Christine wrote the
+    expandText.js.-->
+
+    <body id="splashbody">
+
+        <div id="splash">
+
+            <section id="entersite">
+                <p>
+                 <img src="images/logoblack.png" alt="logo" height="100">
+                </p>
+
+                <p>
+                    <blockquote id="entertext">FIRST<br> </br>GENERATION<br>
+                    </br>NETWORK</blockquote>
+                </p>
+
+                <!-- the div with the id "join" is called by the jquery in the
+                expandText javascript, and the word "Join" then expands
+                when the user hovers over it.-->
+                <div id="join">
+                    <h1><a href='homepage.html'>JOIN</a></h1>
+                </div>
+            </section>
+
+        <!-- the div with the id "carousel" contains the HTML necessary to create
+        a space in the webpage to physically hold the image carousel.  This
+        id is called in the jquery in the javascript to populate it with the
+        image carousel. -->
+
+        <figure id="carousel">
+            <img src="" width="80%">
+        </figure>
+
+    </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src='expandText.js'></script>
+        <script src='imageCarousel.js'></script>
+
+    </body>
+</html>

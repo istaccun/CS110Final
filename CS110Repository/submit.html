@@ -1,0 +1,41 @@
+<!doctype html>
+<!--
+FILE NAME: submit.html
+WRITTEN BY: Isabel Staccuneddu
+DATE:  11/7/15
+PURPOSE: This page allows the user to submit their own story to FGN.  We were
+going to use an Ajax form, but our client required that there be a first line of
+security in that only those with Wellesley.edu usernames could submit stories.
+Therefore, we have embedded a Google form I wrote for a FGN Wellesley.edu email
+I set up specifically for collecting form responses.  This page uses no
+javascript applications.
+-->
+<html>
+    <head>
+        <title>First Gen Network</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styling.css">
+        <!-- Insert W logo into tab -->
+        <link rel='shortcut icon' href='images/wellesley_logo.png'>
+    </head>
+
+    <!-- Christine's navbar -->
+    <nav>
+        <!-- Here starts the code that should go in the separate menu.part file. -->
+          <!--#include virtual="menu.part"-->
+        <!-- Here ends the code that should go in the separate menu.part file. -->
+    </nav>
+
+    <body id='submitbody'>
+        <!-- this is the code copied from the Google form's "embed" option, to
+        embed the submit form in our website-->
+        <iframe src="https://docs.google.com/a/wellesley.edu/forms/d/17lTRgPg3yUXN1zNaGXHaMm4UDQjgbggWNZPcQYHbLn8/viewform?embedded=true"
+        width="760" height="500" frameborder="0" marginheight="0"
+        marginwidth="0">Loading...</iframe>
+    </body>
+    <footer>
+        <p>106 Central Street Wellesley, MA 02481 |
+        <a href="mailto:kshih@wellesly.edu">kshih@wellesley.edu</a>
+        </p>
+    </footer>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Filename: homepage.html
+Author:  Christine T
+Purpose: The purpose of this page is to serve as an introduction to the
+     Network.  The page utilizes one javascript application (in addition to the
+     javascript drop down menu that each page utilizes) which makes the
+     thumbnail image gallary pictures clickable and fill the larger figure
+     floated left.  In addition, we have text describing the mission and
+     history of the Network.
+Date: 10/31/15
+-->
+
+
+<head>
+    <meta charset="utf-8">
+    <title>First Gen Network</title>
+    <link rel="stylesheet" href="styling.css">
+    <!--Add W logo into tab-->
+    <link rel='shortcut icon' href='images/wellesley_logo.png'>
+</head>
+
+<nav>
+    <!-- Here starts the code that should go in the separate menu.part file. -->
+      <!--#include virtual="menu.part"-->
+    <!-- Here ends the code that should go in the separate menu.part file. -->
+</nav>
+
+    <body id="homepage_body">
+
+        <!--Here is where we are going to use the gallery javascript-->
+        <div class="img_gallery">
+
+
+            <!--We are going to display the first image on the page first-->
+            <figure id="large">
+                <img src="images/joinnetwork_4.jpg">
+            </figure>
+
+            <div id="gallery">
+                <img data-bigsrc="images/joinnetwork_4.jpg" src="images/joinnetwork_4_thumb.jpg" alt="firstgenpin">
+                <img data-bigsrc="images/joinnetwork_2.jpg" src="images/joinnetwork_2_thumb.jpg" alt="class support">
+                <img data-bigsrc="images/joinnetwork_3.jpg" src="images/joinnetwork_3_thumb.jpg" alt='nachobreak'>
+                <img data-bigsrc="images/joinnetwork_1.jpg" src="images/joinnetwork_1_thumb.jpg" alt='graduation'>
+            </div>
+
+        </div>
+
+        <div id="welcome">
+
+            <h1>Welcome to the Network!</h1>
+
+            <p>The First Gen Network (FGN) is a Wellesley-specific initiative
+                developed to aid first generation students in the transition to college.
+                First gen students, we hope that you find the resources, stories, and
+                contact information on this website particularly useful!  Friends of
+                first gen students, you can check out what we've been up to in the Media
+                tab!  Faculty, staff, and students, you can all submit your stories about
+                being first gen to our Stories tab!  We hope you enjoy the site, and please
+                feel free to email us with questions or suggestions.
+            </p>
+        </div>
+
+        <script src='imageGallery.js'></script>
+    </body>
+
+    <footer id=homepagefooter>
+        <p>106 Central Street Wellesley, MA 02481 |
+        <a href="mailto:kshih@wellesly.edu">kshih@wellesley.edu</a>
+        </p>
+    </footer>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+Filename: about.html
+Author:  Isabel Staccuneddu
+Date:  10/31/15
+Purpose: This page is the "About" page, where the user can learn more about
+Network.  There are no javascript applications on this page, but there is a
+hover function made possible by CSS.  There is text content under the headings
+"History" and "Mission".  The tiles making up the "aboutphotos" div are
+styled with CSS to make them interactive.  When the user hovers over the
+headshots, the information relevant to each headshot appears over a
+darkened image.
+-->
+
+  <head>
+    <meta charset="utf-8">
+    <title>First Gen Network</title>
+    <link rel="stylesheet" href="styling.css">
+    <!--Add W logo into tab-->
+    <link rel='shortcut icon' href='images/wellesley_logo.png'>
+  </head>
+
+  <!-- Christine's Navbar -->
+  <nav>
+      <!-- Here starts the code that should go in the separate menu.part file. -->
+        <!--#include virtual="menu.part"-->
+      <!-- Here ends the code that should go in the separate menu.part file. -->
+  </nav>
+
+  <body id="aboutbody">
+
+    <div id="abouttext">
+
+    <div id="history">
+
+        <h2>Our History</h2>
+        <p> We were founded in 2013 by Karen Shih and Don Leach, who wanted
+        to create a network of resources for first generation students at
+        Wellesley.  Together, with the help of their student coordinators, they
+        built the Network to be the first gen community that Wellesley so needed.
+        </p>
+
+    </div>
+
+    <div id="mission">
+
+        <h2>Our Mission</h2>
+        <p> The goals of the First Generation Network are:
+            <ol>
+                <li>To connect First Gen Students to one another and by so doing
+                    build a network of peer resources
+                <li>To connect First Gen Students to faculty and staff and by so
+                    doing build a network of mentors and mentees
+                <li>To extend the network into First Gen Wellesley Alumni and to
+                    seek their assistance in addressing the concerns of
+                    employment and further education after Wellesley
+                <li>To connect First Gen Student experiences to the diversity/
+                    inclusion goals of the college and division: issues of class
+                    , ethnicity, gender, and citizenship not only intersect with
+                    but also provide integrative focus for the curricular and
+                    co-curricular aspects of a Wellesley College education
+            </ol>
+
+    </div>
+    </div>
+
+
+    <!-- Within the div with the id "aboutphotos", is the small gallery of
+        coordinators' headshots.  When the user hovers over one of the
+        headshots, the corresponding name and position appears over the image.
+        This was originally going to be a javascript application, but I found a
+        better way to do it in CSS, by adapting some code from Geek Girl Life.-->
+    <div id="aboutphotos">
+    <ul class="img-list">
+    <section id="topbar">
+        <li>
+         <figure id="dl">
+          <a href="coordinator_info.html">
+              <img src="images/dl.jpg"
+                   alt="Don Leach"
+                   height="150px">
+              <span class="text"><span>Don Leach, Advisor</span></span>
+          </a>
+         </figure>
+
+        <li>
+          <figure id="ks">
+             <a href="coordinator_info.html">
+                 <img src="images/ks.jpg"
+                        alt="Karen Shih"
+                        height="150px"
+                        width="150px">
+                 <span class="text"><span>Karen Shih, Advisor</span></span>
+             </a>
+          </figure>
+
+        <li>
+         <figure id="ob">
+          <a href="coordinator_info.html">
+              <img src="images/ob.jpg"
+                   alt="Oma Beharry"
+                   height="150px">
+              <span class="text"><span>Oma Beharry, Coordinator</span></span>
+          </a>
+         </figure>
+    </section>
+
+    <section id="bottombar">
+        <li>
+         <figure id="is">
+            <a href="coordinator_info.html">
+                <img src="images/is.jpg"
+                       alt="Isabel Staccuneddu"
+                       height="150px"
+                       width="150px">
+                <span class="text"><span>Isabel Staccuneddu, Coordinator</span></span>
+            </a>
+         </figure>
+
+        <li>
+         <figure id="ec">
+          <a href="coordinator_info.html">
+              <img src="images/ec.jpg"
+                   alt="Elizabeth Cho"
+                   height="150px"
+                   width="150px">
+              <span class="text"><span>Elizabeth Cho, Coordinator</span></span>
+          </a>
+         </figure>
+
+        <li>
+         <figure id="logo">
+              <img src="images/logo.png"
+                    alt="W Logo"
+                    height="110px"
+                    width="120px">
+        </figure>
+    </section>
+    </ul>
+    </div>
+</body>
+    <footer>
+        <p>106 Central Street Wellesley, MA 02481 |
+        <a href="mailto:kshih@wellesly.edu">kshih@wellesley.edu</a>
+        </p>
+    </footer>
+</html>

@@ -1,0 +1,85 @@
+<!--Name: menu.part
+Authors:  Christine T
+Purpose: Nav Bar. The purpose of this manu.part is to put the navigation bar in each
+of the web pages. We will use SSI to modularly incorporate this navigation bar
+in each of the navs in each page's HTML. The menu.part links to the drop down JS as well
+as links jQuery to the document. The Code was inspired by Matthew James Taylor's Website.
+Date: Nov. 2015-->
+
+    <div id="container5">
+        <div id="container4">
+            <div id="container3">
+                <div id="container2">
+                    <div id="container1">
+                        <div id="col1">
+                            <!-- Column one start -->
+                            <ul>
+                                <li id="fgn">Wellesley FGN
+                                    <figure id="fgnlogo">
+                                        <img src="images/wellesley_fgn_logo.png"
+                                        alt="FGN Logo"
+                                        height="100px">
+                                    </figure>
+
+                                </ul>
+                                <!-- Column one end -->
+                            </div>
+
+                            <div id="col2">
+                                <!-- Column two start -->
+                                <ul>
+                                    <li id="about">About
+                                        <ul class="submenu">
+                                            <li><a href='about.html'>About the Network</a></li>
+                                            <li><a href='coordinator_info.html'>Coordinators Info</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <!-- Column two end -->
+                            </div>
+
+                            <div id="col3">
+                                <!-- Column three start -->
+                                <ul>
+                                    <li id="firstgen">I am First Gen
+                                        <ul class="submenu">
+                                            <li><a href='our_stories.html'>Our Stories</a></li>
+                                            <li><a href='submit.html'>Submit Yours</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <!-- Column three end -->
+                            </div>
+
+                            <div id="col4">
+                                <!-- Column four start -->
+                                <ul>
+                                    <li id="getinvolved">Get Involved
+                                        <ul class="submenu">
+                                            <li><a href='calendar.html'>Calendar</a></li>
+                                            <li><a href='media.html'>Media</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <!-- Column four end -->
+                            </div>
+
+                            <div id="col5">
+                                <!-- Column five start -->
+                                <ul>
+                                    <li id="resources">Resources
+                                        <ul class="submenu">
+                                            <li><a href='resources.html'>On-Campus</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <!-- Column five end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="dropDown.js"></script>

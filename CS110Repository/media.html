@@ -1,0 +1,146 @@
+<!doctype html>
+<!--
+FILE NAME: media.html
+WRITTEN BY: Isabel Staccuneddu
+DATE:  11/7/15
+PURPOSE: This page displays all of the media for FGN - links and photos.  The
+photos exist as thumbnails in a gallery that stretches across the screen.  The
+photos are categorized by event - Senior Dinner & Pinning Ceremony '14 and Film
+Screening "First Generation".  When the user clicks on the photo, it opens up
+into a lightbox using the lightbox.js javascript file.  When the user clicks
+again within the lightbox, the photo closes.  The links automatically open new
+tabs when clicked on by the user.
+-->
+<html>
+    <head>
+        <title>First Gen Network</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styling.css">
+        <link rel='shortcut icon' href='images/wellesley_logo.png'>
+    </head>
+
+    <!-- Christine's navbar -->
+    <nav>
+        <!-- Here starts the code that should go in the separate menu.part file. -->
+          <!--#include virtual="menu.part"-->
+        <!-- Here ends the code that should go in the separate menu.part file. -->
+    </nav>
+
+    <body>
+
+        <h1 id="mediatitle">MEDIA</h1>
+
+        <!-- The div with the id "parent2" contains the photos and event
+        headings for the "FGN Event Photos". -->
+        <div id="parent2">
+
+                <h2>FGN Event Photos</h2>
+
+                    <h3>Senior Dinner &amp; Pinning Ceremony '14</h3>
+
+                    <div id=photos1>
+
+                    <figure data-bigsrc="images/pin2014-1.jpg" data-alt="Pinning">
+                        <img src="images/pin2014-1-thumb.jpg" alt="Pinning">
+                    </figure>
+
+                    <figure data-bigsrc="images/pin2014-2.jpg" data-alt="Pinning">
+                        <img src="images/pin2014-2-thumb.jpg" alt="Pinning">
+                    </figure>
+
+                    <figure data-bigsrc="images/pin2014-3.jpg" data-alt="Pinning">
+                        <img src="images/pin2014-3-thumb.jpg" alt="Pinning">
+                    </figure>
+
+                    <figure data-bigsrc="images/pin2014-4.jpg" data-alt="Pinning">
+                        <img src="images/pin2014-4-thumb.jpg" alt="Pinning">
+                    </figure>
+
+                    <figure data-bigsrc="images/pin2014-5.jpg" data-alt="Pinning">
+                        <img src="images/pin2014-5-thumb.jpg" alt="Pinning">
+                    </figure>
+
+                    </div>
+
+                    <div id="photos2">
+                    <h3>Film Screening "First Generation"</h3>
+
+                        <figure data-bigsrc="images/film1.jpg" data-alt="Screening">
+                            <img src="images/film1-1-thumb.jpg" alt="Screening">
+                        </figure>
+
+                        <figure data-bigsrc="images/film2.jpg" data-alt="Screening">
+                            <img src="images/film2-2-thumb.jpg" alt="Screening">
+                        </figure>
+
+                        <figure data-bigsrc="images/film3.jpg" data-alt="Screening">
+                            <img src="images/film3-3-thumb.jpg" alt="Screening">
+                        </figure>
+
+                        <figure data-bigsrc="images/film4.jpg" data-alt="Screening">
+                            <img src="images/film4-4-thumb.jpg" alt="Screening">
+                        </figure>
+
+                        <figure data-bigsrc="images/film5.jpg" data-alt="Screening">
+                            <img src="images/film5-5-thumb.jpg" alt="Screening">
+                        </figure>
+
+                    </div>
+
+                <!-- the div with the ID "lightboxbig" contains the HTML necessary
+                for the lightbox to open within the webpage only when the photo is
+                first clicked on, and to disappear when the photo is clicked on
+                the second time -->
+
+                    <div id="lightboxbig">
+                        <div id="lightbox">
+                            <figure>
+                                <img src="" alt="">
+                            </figure>
+                        </div>
+                    </div>
+
+        </div>
+
+        <!-- The div with the id "news" contains the links and
+        heading for the "Wellesley First Genners In the News". -->
+        <div id="news">
+            <h2>Wellesley First Genners In the News</h2>
+
+                <h3><a href="http://thewellesleynews.com/2015/09/23/first-generation-students-spark-class-conversations/"
+                    target="_blank">
+                    The Wellesley News - "First Generation Students Spark Class
+                    Conversations"</a></h3>
+                <h3><a href="http://www.classism.org/3-things-to-keep-in-mind-as-a-non-first-gen-or-low-income-student-leader/"
+                    target="_blank">
+                    Class Action - "3 Things to Keep in Mind as a Non-First Gen or
+                    Low-Income Student Leader"</a></h3>
+                <h3><a href="http://www.wellesley.edu/news/2015/03/node/58721"
+                    target="_blank">Wellesley Daily Shot 3/12/15</a></h3>
+                <h3><a href="http://www.classism.org/programs/1st-generation-college-student-summit/2015-1st-gen-summit/"
+                    target="_blank">
+                    Wellesley 2015 First Gen Summit in Review</a></h3>
+                <h3><a href="http://wellesleyunderground.com/post/16887698168/the-anger-of-a-first-generation-student-at"
+                    target="_blank">
+                    Wellesley Underground - "The Anger of a First Generation Student at
+                    Wellesley"</a></h3>
+                <h3><a href="http://therivardreport.com/first-generation-college-students-share-successes-advice/"
+                    target="_blank">
+                    The Rivard Report - "First Generation Students Share Successes &amp; Advice"
+                    </a></h3>
+                <h3><a href="http://itooamwellesley.tumblr.com/" target="_blank"
+                    >"I, Too, Am Wellesley" Photo Campaign</a></h3>
+                <h3><a href="http://www.scribd.com/doc/218308279/WAAM-SLAM-II-Transformative-Justice-and-Education-Bill-for-Wellesley-College#scribd"
+                    target="_blank">
+                    WAAM-SLAM II Transformative Justice and Education Bill for Wellesley College</a></h3>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src='lightbox.js' type='text/javascript'></script>
+    </body>
+    <footer id=homepagefooter>
+        <p>106 Central Street Wellesley, MA 02481 |
+        <a href="mailto:kshih@wellesly.edu">kshih@wellesley.edu</a>
+        </p>
+    </footer>
+</html>

@@ -1,0 +1,749 @@
+/*
+FILE NAME: styling.css
+WRITTEN BY: Isabel S and Christine T
+DATE: 11/25/15
+PURPOSE: CSS for the entire website
+*/
+
+/*----------------------------------------------------
+Text and Links For Entire Website - Isabel and Christine
+-----------------------------------------------------*/
+
+body{
+    font-family:'Garamond', serif;
+    background-color: #e3e3e3;
+}
+
+footer {
+    font-family:'Garamond', serif;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+/*----------------------------------------------------
+P1: Splash Page - Isabel
+-----------------------------------------------------*/
+
+#splash {
+    float: left;
+    text-align: center;
+}
+
+#entersite {
+    margin-top: 15%;
+    width: 200px;
+    float: left;
+}
+
+#entertext {
+    border-top: solid #b71c1c 3px;
+    border-bottom: solid #b71c1c 3px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#carousel img{
+    float: right;
+}
+
+#join {
+    width: 200px;
+}
+
+/*----------------------------------------------------
+P2: Home Page - Christine
+-----------------------------------------------------*/
+/*Formatting for the Gallery on the Page*/
+#homepage_body {
+    width: 1100px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#gallery img {
+    width: 10%;
+    margin-left:25px;
+    margin-top: 15px;
+}
+
+#gallery {
+    margin-left:50px;
+}
+#large {
+    float: left;
+    width: 500px;
+    border: 3px solid #b71c1c;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+
+#large img {
+    width: 100%;
+    display: block;
+}
+
+#welcome {
+    /*width: 600px;*/
+    margin-left: 550px;
+    display: block;
+}
+
+#welcome h1 {
+    text-align: center;
+    padding: 5px;
+    border-top: 3px solid #b71c1c;
+    border-bottom: 3px solid #b71c1c;
+}
+
+#homepagefooter {
+    position: static;
+    margin-top: 330px;
+}
+
+#welcome p {
+    font-family: "garamond",serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*----------------------------------------------------
+P3: On-Campus Resources - Christine
+-----------------------------------------------------*/
+#resourcesbody {
+    margin: 0px auto;
+}
+
+#helpyou{
+    text-align: center;
+    background-color: #dc6666;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    width: 70%;
+    margin: 0px auto;
+    clear: both;
+}
+
+#helpyou h1{
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+#cont4 {
+    clear:left;
+    float:left;
+    overflow:hidden;
+    font-family: 'garamond', serif;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 1100px;
+}
+
+#cont4 ul{
+    list-style-type: none;
+}
+
+#cont4 h2 {
+    text-align: center;
+}
+#cont3 {
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+}
+#cont2 {
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+}
+#cont1 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+}
+#column1 {
+	float:left;
+	width:20%;
+	position:relative;
+	left:75%;
+	overflow:hidden;
+    margin-right:2px;
+    background-color: #dc6666;
+    height: 190px;
+    border: 3px inset;
+}
+
+#column2 {
+	float:left;
+	width:20%;
+	position:relative;
+	left:80.33%;
+	overflow:hidden;
+    background-color: #dc6666;
+    height: 190px;
+    border: 3px inset;
+}
+
+#column3 {
+	float:left;
+	width:20%;
+	position:relative;
+	left:85.66%;
+	overflow:hidden;
+    background-color: #dc6666;
+    height: 190px;
+    margin: 0px auto;
+    border: 3px inset;
+}
+#column4 {
+	float:left;
+	width:20%;
+	position:relative;
+	left:91%;
+	overflow:hidden;
+    background-color: #dc6666;
+    height: 190px;
+    margin: 0px auto;
+    border: 3px inset;
+}
+
+/*Link Styling for the Page*/
+#cont4 a:link{
+    color:black;
+}
+
+#cont4 a:visited {
+    color:black;
+}
+
+#cont4 a:hover {
+    color:black;
+    text-decoration:underline;
+    font-weight: bold;
+}
+#cont4 a:active {
+    color:black;
+}
+
+#resourcesfooter{
+    position: static;
+    margin-top: 310px;
+}
+
+/*----------------------------------------------------
+P4: About the Network - Isabel
+-----------------------------------------------------*/
+
+#aboutbody {
+    margin: 0px;
+}
+
+#history {
+  float:left;
+  text-align: center;
+  width: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#history h2{
+    border-bottom: 1px solid black;
+}
+
+#mission {
+  float:left;
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+#mission ol {
+    text-align: left;
+}
+
+#mission h2{
+    border-bottom: 1px solid black;
+}
+
+#aboutphotos {
+    float:left;
+    width: 500px;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+#logo img{
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 150px;
+  position: relative;
+  width: 150px;
+}
+
+span.text {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 40px;
+  position: absolute;
+  top: 17px;
+  width: 150px;
+  opacity: 0;
+}
+
+span.text span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.img-list li:hover span.text {
+    opacity: 1;
+}
+
+/*----------------------------------------------------
+P5: Your Coordinators - Isabel
+-----------------------------------------------------*/
+
+#coordh1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#parent1 {
+    width: 850px;
+    margin-left: 10%;
+}
+
+#parent1 figure {
+    border: solid #b71c1c 2px;
+    border-radius: 4px;
+    height: 250px;
+    clear: left;
+    float: left;
+}
+
+#parent1 figcaption {
+    color: #b71c1c;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#coordtxt1 {
+    margin-left: 300px;
+    text-align: justify;
+    margin-bottom: 90px;
+    padding-top: 20px;
+}
+
+#coordtxt2 {
+    margin-left: 300px;
+    text-align: justify;
+    margin-bottom: 100px;
+    margin-top: 120px;
+}
+
+#coordtxt3 {
+    margin-left: 300px;
+    text-align: justify;
+    margin-bottom: 100px;
+    margin-top: 220px;
+}
+
+#coordtxt4 {
+    margin-left: 300px;
+    text-align: justify;
+    margin-bottom: 100px;
+    margin-top: 180px;
+}
+
+#coordtxt5 {
+    margin-top: 270px;
+    margin-left: 300px;
+    text-align: justify;
+}
+
+/*----------------------------------------------------
+P6: Calendar - Christine
+-----------------------------------------------------*/
+
+#calendar {
+    margin: 0px auto;
+    text-align: center;
+}
+
+/*----------------------------------------------------
+P7: Media - Isabel
+-----------------------------------------------------*/
+#mediatitle {
+    display: block;
+    text-align: center;
+}
+
+#parent2 {
+    display: block;
+    text-align: center;
+}
+#photos1 figure{
+    display: block;
+    float: left;
+    text-align: center;
+    border: solid #e60000 2px;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+#photos1 {
+    width: 1100px;
+    float: left;
+    margin-left: 25px;
+}
+
+#photos1 img{
+    display: block;
+}
+#photos2 {
+    width: 1100px;
+    margin-left: 25px;
+}
+#photos2 img{
+    display: block;
+}
+
+#photos2 h2{
+    clear: both;
+    text-align: center;
+}
+
+#photos2 figure{
+    float: left;
+    text-align: center;
+    border: solid #e60000 2px;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+#news {
+    clear: both;
+    text-align: center;
+}
+
+#lightboxbig {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: black;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+#lightboxbig figure {
+    background-color: white;
+    width: 80%;
+    margin-left: 100px;
+}
+
+#lightboxbig figure img {
+    width: 100%;
+    display: block;
+}
+
+/*----------------------------------------------------
+P8: Our Stories - Christine
+-----------------------------------------------------*/
+#iam{
+    text-align: center;
+    border-bottom: 3px solid #b71c1c;
+    margin: 0px auto;
+    margin-left: 220px;
+}
+
+#iam h1{
+    font-size: 36px;
+}
+
+#story_menu {
+    float: left;
+    margin-right: 150px;
+    border: 2px inset;
+    padding: 5px;
+    width: 188px;
+    background-color: #dc6666;
+    margin-top: 0px;
+    position: fixed;
+}
+
+#story_menu ul{
+    list-style-type: none;
+    font-family: "Garamond", sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 0px;
+}
+
+#story_menu li{
+    margin: 3px;
+    text-align: center;
+}
+
+#story_menu a:link{
+    color:black;
+    text-decoration: none;
+}
+
+#story_menu a:visited {
+    color:black;
+}
+
+#story_menu a:hover {
+    color:black;
+    text-decoration:underline;
+    font-weight: bold;
+}
+#story_menu a:active {
+    color:black;
+    text-decoration: none;
+}
+
+#allstories {
+    position: relative;
+    float: right;
+    margin-left: 220px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#allstories a {
+display: block;
+text-align: center;}
+
+#allstories h3{
+    font-family: "Garamond", sans-serif;
+    text-align: center;
+    padding: 5px;
+    margin: 0px auto;
+    margin-top: 15px;
+    font-size: 34px;
+    letter-spacing: 3px;
+}
+
+#allstories h4 {
+    text-align: center;
+}
+
+#allstories h5 {
+    text-align: center;
+}
+
+#faculty p {
+    text-align: center;
+}
+
+#jw {
+    display: block;
+    text-align: center;
+}
+
+#am {
+    display: block;
+    text-align: center;
+}
+
+#lg {
+    display: block;
+    text-align: center;
+}
+
+/*----------------------------------------------------
+P9: Submit - Isabel
+-----------------------------------------------------*/
+
+#submitbody {
+    text-align: center;
+}
+
+/*----------------------------------------------------
+Nav Bar - Christine
+-----------------------------------------------------*/
+nav a:link{
+    color:white;
+    text-decoration:none
+}
+
+nav a:visited {
+    color:white;
+    text-decoration:none
+}
+nav a:hover {
+    color:white;
+    font-weight: bold;
+    text-decoration:underline
+}
+nav a:active {
+    color:white;
+    text-decoration:underline
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+#container5 {
+clear:left;
+float:left;
+width:100%;
+overflow:hidden;
+background-color: #b71c1c;
+font-family: 'garamond', serif;
+margin-bottom: 20px;
+height: 8em;
+}
+
+#container5 ul {
+    list-style-type: none;
+    color: white;
+}
+
+#container4 {
+clear:left;
+float:left;
+width:100%;
+position:relative;
+right:20%;
+}
+
+#container3 {
+clear:left;
+float:left;
+width:100%;
+position:relative;
+right:20%;
+}
+
+#container2 {
+clear:left;
+float:left;
+width:100%;
+position:relative;
+right:20%;
+}
+
+#container1 {
+float:left;
+width:100%;
+position:relative;
+right:20%;
+}
+
+#col1 {
+float:left;
+width:16%;
+position:relative;
+left:82%;
+overflow:hidden;
+}
+
+#col2 {
+float:left;
+width:16%;
+position:relative;
+left:86%;
+overflow:hidden;
+}
+
+#col3 {
+float:left;
+width:16%;
+position:relative;
+left:90%;
+overflow:hidden;
+}
+#col4 {
+float:left;
+width:16%;
+position:relative;
+left:94%;
+overflow:hidden;
+}
+#col5 {
+float:left;
+width:16%;
+position:relative;
+left:98%;
+overflow:hidden;
+}
+
+#col1 figure {
+    margin:0px auto;
+}
+
+/*----------------------------------------------------
+Footer -- HTML & CSS Validators and Copyright - Christine
+-----------------------------------------------------*/
+footer {
+	margin-top:20px; /*space between the border and the body*/
+	border-top: 1px solid  #486075;
+	text-align: center;
+    clear:both;
+	overflow: hidden;
+}
+
+footer p {
+	margin-top: 20px;/*space between the border and the footer text */
+}
+/*----------------------------------------------------
+Additional Notes on Validation
+-----------------------------------------------------*/
+/* The validator complained of our footer because it was out of the body, but
+we need it that way for design purposes. It also did not like that we used the word
+body when giving the body an id, however, we cannot change that because that was
+how we uniquely identified it. This is also the case for the validator not
+liking the fact that we did not have headings for our section and it complained
+about the syntax of embedded urls e.g. iframe. Furthermore, it didn't like the empty
+quotes that we had to use for jQuery to fill in the HTML */
